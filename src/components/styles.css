@@ -1,0 +1,30 @@
+.navbar {
+  height: 100vh;
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-item {
+  color: #949494;
+  font-weight: bolder;
+  width: 40px;
+  margin: 10px 5px;
+  margin-top: 5px;
+  padding: 10px 4px;
+  cursor: not-allowed;
+}
+
+.home {
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  background-color: #3d2dde;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #3d2dde;
+}
