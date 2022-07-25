@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ContributionsChart from "./ContributionsChart";
 import "./styles.css";
 
 const RetirementIncome = () => {
@@ -23,6 +24,7 @@ const RetirementIncome = () => {
       </div>
 
       <h2>Contributions Overtime</h2>
+      <ContributionsChart />
     </div>
   );
 };
