@@ -24,7 +24,6 @@ const RetirementIncome = () => {
       </div>
 
       <h2>Contributions Overtime</h2>
-      <ContributionsChart />
     </div>
   );
 };
