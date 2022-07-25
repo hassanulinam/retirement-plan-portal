@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ContributionsChart from "./ContributionsChart";
 import "./styles.css";
 
 const RetirementIncome = () => {
