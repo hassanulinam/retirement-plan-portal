@@ -7,10 +7,11 @@ import RetirementStrategy from "./components/RetirementStrategy";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      
       <MyProfile />
       <RetirementIncome />
       <RetirementStrategy />
+      <Navbar />
     </div>
   );
 }
