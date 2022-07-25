@@ -35,7 +35,8 @@
 .profile-section {
   background-color: #fafafa;
   width: 30%;
-  padding: 5%;
+  max-width: 250px;
+  padding: 3%;
   display: flex;
   flex-direction: column;
   color: #3d3d3d;
@@ -53,4 +54,32 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+/* RetirementIncome Component --------------------------------- */
+.retirement-income-section {
+  color: #3d3d3d;
+  padding: 3%;
+  width: 50%;
+}
+
+.retirement-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.retire-stat-card {
+  margin: 15px 0;
+  padding: 20px 20px 10px 0;
+  border-bottom: 1px solid #4935fe;
+}
+
+/* RetirementStrategy Component --------------------------------------- */
+.strategy-card {
+  font-family: "Arial", Helvetica, sans-serif;
+  margin-top: 3%;
+  padding: 2%;
+  background-color: #fafafa;
+  align-self: flex-start;
+  border-radius: 16px;
 }

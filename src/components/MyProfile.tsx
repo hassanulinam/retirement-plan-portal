@@ -42,10 +42,10 @@ const MyProfile = () => {
         <p className="subtle-black mt-2">2020-08-07</p>
         <p>Withdrawal Transfer to Bank-XXX11</p>
         <Divider style={{ margin: "12px 0" }} />
-        <p className="subtle-black">2020-08-07</p>
+        <p className="subtle-black">2020-07-21</p>
         <p>Withdrawal Transfer to Bank-XXX11</p>
-        <Divider style={{ margin: "12px 0" }} />
-        <p className="subtle-black">2020-08-07</p>
+        <Divider style={{ margin: "16px 0 10px 0" }} />
+        <p className="subtle-black">2020-07-16</p>
         <p>Withdrawal Transfer to Bank-XXX11</p>
         <Divider style={{ margin: "12px 0" }} />
       </div>
